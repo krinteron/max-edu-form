@@ -1,5 +1,8 @@
 # max-edu-form
 
+## DEMO
+[Github Pages](https://krinteron.github.io/max-edu-form/)
+
 ## Project setup
 
 ```
