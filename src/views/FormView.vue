@@ -31,7 +31,7 @@
       </p>
       <input @change="onFileChange" type="file" />
     </FormField>
-    <FormField label="Загрузка документов" required>
+    <FormField>
       <OrangeButton
         text="отправить"
         :disabled="!formIsValid"

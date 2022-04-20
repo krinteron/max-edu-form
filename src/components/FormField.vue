@@ -1,6 +1,6 @@
 <template>
   <fieldset class="form-item">
-    <p class="title" :class="{ required }" v-text="label" />
+    <p v-if="label" class="title" :class="{ required }" v-text="label" />
     <slot />
   </fieldset>
 </template>
@@ -11,12 +11,11 @@ export default {
     label: {
       type: String,
       required: false,
-      default: 'Lable',
+      default: '',
     },
     required: {
       type: Boolean,
       required: false,
-      default: false,
     },
   },
 };
